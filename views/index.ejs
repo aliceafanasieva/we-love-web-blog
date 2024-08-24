@@ -12,14 +12,14 @@
                 <br>˚₊ ˚ ‧₊ .:･˚₊ ˚ ‧₊ .:･˚₊ *˚₊ ˚ ‧₊ .:･˚₊ ˚ ‧₊ .:･˚₊ *˚₊ ˚ ‧₊ .:･˚
                 </p>
             </section>
-            <h2>blogs & presentaties</h2>
+            <h2 class="blogspage-heading">blogs & presentaties</h2>
             <ul class="blogs">
                 <% for (let [index, blog] of semester1.entries()) { %>
                     <li class="blog">
                         <a href="/<%-blog.slug%>">
                             <img src="<%= blog.imagePath %>" alt="<%- blog.title %> image">
                             <h2 class="blog-number"><%- index + 1 %>.</h2>
-                            <p class="blog-title"><h3><%- blog.title %></h3></p>
+                            <h3 class="blog-title"><%- blog.title %></h3>
                             <p class="blog-description"><%- blog.short_description %></p>
                         </a>
                     </li>

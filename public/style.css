@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "Digital";
+    src: url("/assets/fonts/DotGothic16-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 300;
+    src: url("/assets/fonts/Inter-VariableFont_opsz,wght.ttf");
+}
+
+:root {
+    --regular-font: "Inter";
+    --digital-font: "Digital";
+    --white:#ffffff;
+    --black:#000000;
+    --transition: 0.5s ease-in-out 0.1s;
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+}
+
+html {
+    font-family: var(--regular-font);
+}
+
+header {
+    border-bottom: 1.5px solid var(--black);
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: left;
+}
+
+header h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0.5rem;
+    padding-left: 2rem;
+}
+
+main {
+    padding: 2em;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.homepage,
+.artikel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage {
+    background-color: var(--white);
+}
+
+.homepage-blogs {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em 4em 1em;
+    align-items: center; 
+    gap: 5rem;
+}
+
+.homepage-blogs > :last-child {
+    align-self: flex-start; 
+}
+
+.homepage h2 {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.5em;
+    display: flex;
+}
+
+.intro {
+    font-family: var(--digital-font);
+    font-size: 1.5em;
+    max-width: 900px;
+    padding: 3rem;
+    line-height: 3.5rem;
+}
+
+.intro p {
+    text-align: center;
+}
+
+.blogs {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 8em;
+    row-gap: 3em;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative; 
+    width: 20em;
+    height: 23em;
+    margin: 0;
+}
+
+.blog a {
+    position: absolute;
+    z-index: 1;
+    padding: inherit;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transform: scale(.7);
+    gap: .5em;
+}
+
+.blog a:link, 
+.blog a:active,
+.blog a:visited {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.blog a p,
+.blog a h3 { 
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.artikel {
+    background-color: var(--white);
+    min-height: 100vh;
+}
+
+.artikel article {
+    max-width: 900px;
+}
+
+.artikel article .back-button {
+    background-color: var(--white);
+    padding: 1em;
+}

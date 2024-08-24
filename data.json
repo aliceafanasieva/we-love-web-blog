@@ -1,0 +1,86 @@
+{ "data": [
+    {   
+      "id": "1",
+      "slug": "Simon-Riisnæs-Dagfinrud",
+      "title": "Simon Riisnæs Dagfinrud",
+      "presentor": "Simon Riisnæs Dagfinrud",
+      "type": "presentatie",
+      "short_description": "Simon Riisnæs Dagfinrud",
+      "imagePath":"/images/flower_3.png",
+      "date": "16-02-2024",
+      "semester":"1",
+      "description": ""
+  },
+    {
+      "id": "2",
+      "slug": "Pre-CSS-Day",
+      "title": "Pre CSS Day",
+      "type": "presentatie",
+      "short_description": "Op de Pre-CSS Day werd ons verteld over nieuwste uitvindingen in het gebied van CSS.",
+      "imagePath": "/images/flower_2.png",
+      "date": "15-03-2024",
+      "semester":"1",
+      "description": ""
+    },
+    {   
+      "id": "3",
+      "slug": "GSAP",
+      "title": "GSAP",
+      "presentor": "GSAP",
+      "type": "essay",
+      "short_description": "Essay over GSAP.",
+      "imagePath": "/images/flower_1.png",
+      "date": "26-04-2024",
+      "semester":"1",
+      "description": ""
+    },
+    {   
+      "id": "4",
+      "slug": "Usability en User Delight",
+      "title": "Usability en User Delight",
+      "type": "essay",
+      "short_description": "Mijn essay op twee gelezen artikelen over de progressive enhancement.",
+      "imagePath": "/images/flower_7.png",
+      "date": "",
+      "semester":"1",
+      "description": ""
+    },
+    {
+      "id": "5",
+      "slug": "Tim-Borst",
+      "title": "Tim Borst",
+      "presentor": "Tim Borst",
+      "type": "presentatie",
+      "short_description": "Tim heeft zijn eigen geschiedenis verteld van toen hij klaar was met zijn CMD studie.",
+      "imagePath": "/images/flower_5.png",
+      "date": "",
+      "semester":"1",
+      "description": "Na zijn afstuderen in 2006/2007 in Communicatie en Multimedia Design (CMD) besloot Tim zijn eigen eenmanszaak te starten in frontend development. Samen met een paar vrienden vond hij een betaalbare studio waar ze een goed samenwerkingsverband vormden. Tim vertelde in zijn verhaal dat hij aan het begin van zijn startup bijna elke opdracht die hem werd aangeboden ging nemen. Deze bereidheid om steeds 'ja' te zeggen, zorgde ervoor dat hij een uitgebreid klantenbase opbouwde en veel kansen kreeg om zijn vaardigheden te ontwikkelen. Samen met zijn vrienden erkende hij elkaars sterke punten en hielpen ze elkaar met verschillende projecten. Dit leidde uiteindelijk tot de oprichting van een agency, een gezamenlijk bedrijf dat uitgroeide tot een middelgroot bureau dat diensten leverde aan grote bedrijven zoals Audi. Hoewel Tim veel leerde en zijn bedrijf een succesvolle groei doormaakte, merkte hij na verloop van tijd dat hij steeds minder bezig was met de werkzaamheden die hem echt voldoening gaven. Deze realisatie bracht hem in 2019 tot een besluit om het bedrijf te verlaten en verder zelfstandig te gaan. Hij heeft veel uitdagingen en waardevolle lessen gehad. Een van de belangrijkste dingen die hij begreep, was het belang van het altijd opstellen en versturen van een offerte naar klanten. Daarnaast leerde hij dat het cruciaal is om de financiën goed bij te houden, iets wat hij soms uit het oog verloor vanwege zijn grote passie voor het creatieve werk. Ondanks de obstakels kijkt Tim met voldoening terug op zijn reis en is hij dankbaar voor de kansen die hij heeft gekregen om zijn talenten te ontwikkelen en door te groeien in creativiteit. <h2>Wat heb ik geleerd van de presentatie?</h2> Ik vond de presentatie van Tim heel motiverend en inspirerend. Hij liet een veel van zijn werk zien, wat me ook motiveerde om mijn eigen creativiteit te ontwikkelen. Tim sprak ook over het belang van voortdurende groei en ontwikkeling, niet alleen door je eigen vaardigheden te verbeteren, maar ook door effectief samen te werken met collega’s en vrienden, en daar moet ik ook meer aandacht aan besteden in de toekomst. <br>Nog een andere interessante punt van deze presentatie was dat het erg belangrijk is om openminded te zijn, om een brede visie te hebben, met name op gebieden waar je misschien minder ervaring in hebt, zoals financiën. Het inzicht dat hij deelde over het belang van financiële controle en het sturen van offertes heeft me doen realiseren hoe belangrijk het is om naast je creatieve passie ook aandacht te besteden aan de zakelijke aspecten van je werk. "
+    },
+    
+  {   
+    "id": "6",
+    "slug": "Progressive-Enhancement",
+    "title": "Progressive Enhancement",
+    "type": "essay",
+    "short_description": "Mijn essay op twee gelezen artikelen over de progressive enhancement.",
+    "imagePath": "/images/flower_6.png",
+    "date": "",
+    "semester":"1",
+    "description": "<h2>Introductie</h2></n>Ik heb twee artikelen over de Progressive enhancement gelezen en met daarop gebaseerd kennis een verslag geschreven over dit thema. De artikelen hebben allebei een gemeenschappelijk gedachte dat het bouwen voor het web prioriteit moet geven aan de toegankelijkheid van de inhoud en acceptabele gebruikerservaring op alle apparaten en browsers. <h2>Artikel 'The power of progressive enhancement'</h2> </n> In dit artikel vertelt de auteur eerst over door hem gelaunceerde app My Browser, die ontworpen is om gedetailleerde browserrapporten te genereren. Wat My Browser zo goed maakt, is de toepassing van progressieve enhancement - een strategie die prioriteit geeft aan het maken van optimale webervaring voor de gebruiker, ongeacht apparaat of browser die gebruikt wordt. <h3> Wat is progressive enhancement?</h3> Het idee van progressive enhancement is in de 'minimaal haalbare ervaring' (minimum viable experience). Door zich te focussen op de kernfunctionaliteit die voor alle gebruikers toegankelijk is (sterke HTML, daarna CSS en als laatste Javascript) ongeacht de beperkingen van hun browser, kan je ervoor zorgen dat website functioneel en gebruiksvriendelijk blijft.<br>De developer moet dan een standaardervaring (defaultexperience) aanbieden voor de gebruikers die een beperkte of oude browsers gebruiken, waarbij website voor de gebruiker niet 'gebroken' zal uitzien, de content behouden zal zijn, en de gebruikers dus geen indruk zullen hebben dat ze alleen een beperkte ervaring krijgen of een gevoel dat er iets ontbreekt. Dat wilt zeggen, dat als bijvoorbeeld een animatie van een gradient op een website niet werkt omdat de browser van de gebruiker het niet kan ondersteunen - is het niet erg, maar het is vooral van belang dat een cruciale functie van de website, de content, zoals bijvoorbeeld een registratieform of navigatiebar altijd ondersteund worden door elk browser. <img src='https://user-images.githubusercontent.com/96443048/212162380-08342fc5-8c46-4702-90ed-71bbca78669d.png'><br><i>Ter illustratie van dit principe is wordt in artikel bovenstaande plaatje gegeven: de gebruiker krijgt geen 'onvolledige' ervaring, maar een optimaal ervaring ongeacht de beperkingen</i><br><h3>De oplossingen</h3>De auteur raadt aan om niet te veel proberen om de website op elk browser hetzelfde (pixelperfect) laten uitzien, dit is bijna onmogelijk en brengt te veel onnodige gewicht en complexiteit aan de code. <h3>Conclusie</h3>De auteur wilt ten slotte er nog op duiden, dat de progressive enhancement niet per sé meer werk is, maar dat is een verandering van denkwijze over het bouwen van de website voor iedereen, het denken over anderen en niet over jezelf. Doordat er grote groepen bestaan van Apple of Chrome gebruikers die vrijwel geen beperkingen hebben in webervaring, wordt er een indruk gecreeërd dat dit voor elk internetgebruiker dezelfde is, maar dat is niet zo en er moet met iedereen rekening worden gehouden. Het is belangrijk om te zorgen voor de optimale webervaring van elk gebruiker, ook al wordt het tot de kern versimpeld, moet de gebruiker geen indruk krijgen dat er iets aan de volledigheid van zijn ervaring ontbreekt. <h2>Artikel 'Understanding Progressive Enhancement'</h2> In dit artikel worden twee web development strategieën 'graceful degradation' en 'progressive enhancement' vergeleken. Ze gaan allebei over hoe goed website op verschillende browsers en apparaten werkt, alleen hun focus is wel verschillend.<br>Bij progressieve enhancement draait het om het bouwen van de inhoud van de website in 'laagjes' naar buiten toe, het aanbrengen van de decoratie (CSS) en interactiviteit (Javascript) boven een sterke HTML. In de artikel wordt de analogie met een Peanut M&M wordt gebruikt om deze aanpak te illustreren, waarbij de HTML (de content) de pinda vormt, CSS de chocolade en JavaScript de harde snoepshell. Elke laag heeft zijn eigen belangen en is zelf ook volledig, waarbij dus standaardervaring voor alle gebruikers gecreërd (met content kern) en de mooiere ervaringen worden erop aangebracht, voor de gebruikers met minder beperkte browsers.<h2>Slot</h2>Deze twee artikelen hebben een gemeenschappelijk gedachte over de belang van de toepassing van de strategie progressive enhancement voor de toekomst van web development. Het wordt in de artikelen aangeraden om bij het bouwen van websites prioriteit te geven aan eenvoud, toegankelijkheid en inclusiviteit, om te beginnen met sterke HTML basis en ervoor te zorgen dat elk gebruiker een minimaal haalbare ervaring van de website krijgt, ongeacht de browser of de apparaat.<h2>Bronnen</h2> <b>'The power of progressive enhancement'</b> - <a>archive.hankchizljaw.com</a> <br> <b>'Understanding Progressive Enhancement'</b> - <a>alistapart.com'</a>"
+  },
+
+  {   
+    "id": "7",
+    "slug": "Fenna-de-Wilde",
+    "title": "Fenna de Wilde",
+    "presentor": "Fenna de Wilde",
+    "type": "symposium",
+    "short_description": "Gastcollege over toehankelijkheid.",
+    "imagePath": "/images/flower_4.png",
+    "date": "",
+    "semester":"1",
+    "description": "<h2>Wie is Fenna de Wilde?</h2> Fenna de Wilde is creative front-end developer. Momenteel werkt zij bij Bakken&Baeck, een Noorse tech-driven design studio. Voorheen Build in Amsterdam, een digital agency gefocust rondom branding, strategie en e-commerce. Fenna is een oud CMD-student en al 4.5 jaar actief is als creative front-end developer, heeft haar ervaring met ons gedeeld over de Accessibility Design & Development. Tijdens de we-love-web liet ze meerdere sites zien waar zij aan had gewerkt. Er was zelfs een site bij die genomineerd was als website van het jaar. Fenna had recentelijk ook aan een crypto website gewerkt waarbij ze de branding van crypto zelf wilde veranderen. De website heet Phantom en zij wilden de site vriendelijker eruit laten zien. Zwart kan namelijk mensen afschrikken die niks begrijpen van cryptocurrency. Bij het bouwen van websites benadrukte ze het belang van toegankelijkheid voor alle gebruikers. In de digitale wereld krijgen esthetiek en vloeiende animaties vaak alle aandacht. Toch is er een cruciaal aspect dat vaak over het hoofd wordt gezien maar wel onze volle aandacht verdient - toegankelijkheid. Enkele codevoorbeelden en overwegingen zijn: Focus state voor toetsenbordgebruikers: Niet alle gebruikers bedienen een interface met een muis. Je kunt dan een focus state toevoegen door een :focus-visible te gebruiken. Voeg een :focus-visible state toe bij een :hover-state. ARIA (Accessible Rich Internet Applications): Ze geven aanvullende informatie aan hulptechnologieen over het gedrag en de structuur van je code. Belangrijke attributen zoals aria-label, aria-controls, aria-expanded, en aria-live. Toegankelijke carrousels: Test kleurcontrast met een WAI-test, let op lettergroottes en lijnlengtes. Alt-tekst voor afbeeldingen: Essentieel voor begrijpelijke content. Aria controls: Als een element het andere element controleert. Het element dat wordt gecontroleerd krijgt een id en het andere krijgt een aria-controls. Toegankelijke carousels: Zorg ervoor dat je carrousels ook toegankelijk zijn. Dit is vrij lastig als je bijvoorbeeld erdoorheen wil tabben. De carrousels moeten een role='group' hebben. Goede kleurcontrasten, lettergrottes en lijnlengtes. Om mensen met verschillende visuele beperkingen te ondersteunen, heeft de WAI (Web Accessibility Initiative) een kleurcontrast formule gemaakt om ervoor te zorgen dat er voldoende contrast is tussen de tekst en de achtergrond. De kleurcontrast formule beoordeelt de lichtheid tussen kleuren, varierend van 1 tot 21, vaak weergegeven als [kleurwaarde]:1. Puur zwart tegen puur wit heeft bijvoorbeeld een contrast van 21:1. Tekst moet volgens WCAG (Web Content Accessibility Guidelines) en contrastverhouding van 4,5:1 hebben. Grote tekst 24px of 18px vetgedrukt en belangrijke icons moeten een contrastverhouding van 3:1 hebben. Logo's en decorative elementen zin hiervan vrijgesteld. Voor optimale leesbaarheid word vaak aanbevolen om te streven naar een lettergrootte van minimal 16 pixels. Alt teksten voor afbeeldingen. Alt-text is van essentieel belang voor mensen die geen afbeeldingen kunnen zien. Houd de beschrijving van de afbeelding beknopt en nauwkeurig. Vermijd het gebruik van 'Afbeelding van' aan het begin van de alt-tekst. Het implementeren van een 'Skip to content' knop. Actief gebruik maken van een screenreader. Autoplay video's/carrousels moeten pauzeerbaar zijn. Overweging van prefers-reduced-motion om gebruikers met gevoeligheid voor beweging tegemoet te komen. Dit moet eigenlijk zo: 'Als een website niet voor iedereen toegankelijk is, dan heb je er niks aan. Een website gaat vooral over bruikbaarheid en gaat om de gebruiker. Toegankelijkheidsrichtlijnen. Er zijn dus veel verschillende toegankelijkheidsprincipes in code waar rekening mee gehouden moet worden. Dit kan uiteindelijk, wanneer dit goed uitgevoerd is, gecontroleerd worden aan de hand van toegankelijkheidstesten en als er nog iets mist kan dit in een iteratie nog aangepast worden."
+  }
+
+]}

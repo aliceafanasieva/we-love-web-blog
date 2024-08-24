@@ -1,0 +1,31 @@
+<%- include('./partials/head') %>
+<title>We <3 web!</title>
+
+    <main class="homepage">
+        <div class="homepage-blogs">
+            <section class="intro">
+                <p>
+                ˚₊ ˚ ‧₊ .:･˚₊ ˚ ‧₊ .:･˚₊ *˚₊ ˚ ‧₊ .:･˚₊ ˚ ‧₊ .:･˚₊ *˚₊ ˚ ‧₊ .:･˚<br>
+                    Welkom! Dit is de blog voor de We ♥ Web presentaties 
+                    en internationale ontwikkelingen in het gebied van 
+                    frontend development en design  (^_^*)
+                <br>˚₊ ˚ ‧₊ .:･˚₊ ˚ ‧₊ .:･˚₊ *˚₊ ˚ ‧₊ .:･˚₊ ˚ ‧₊ .:･˚₊ *˚₊ ˚ ‧₊ .:･˚
+                </p>
+            </section>
+            <h2>blogs & presentaties</h2>
+            <ul class="blogs">
+                <% for (let [index, blog] of semester1.entries()) { %>
+                    <li class="blog">
+                        <a href="/<%-blog.slug%>">
+                            <img src="<%= blog.imagePath %>" alt="<%- blog.title %> image">
+                            <h2 class="blog-number"><%- index + 1 %>.</h2>
+                            <p class="blog-title"><h3><%- blog.title %></h3></p>
+                            <p class="blog-description"><%- blog.short_description %></p>
+                        </a>
+                    </li>
+                <% } %>
+            </ul>
+        </div>
+    </main>
+
+<%- include('./partials/foot') %>

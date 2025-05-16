@@ -1,40 +1,40 @@
 import express from "express"
 import fetchJson from './helpers/fetch-json.js'
-const app = express()
+import { readFile } from 'fs/promises'
+
+const app = express() // ← essentieel!
 
 app.set('view engine', 'ejs')
 app.set('views', './views')
 app.use(express.static('public'))
-app.use('/assets', express.static('assets'));
-app.use('/images', express.static('assets/images'));
+app.use('/assets', express.static('assets'))
+app.use('/images', express.static('assets/images'))
 
 
-import blogData from './data.json' assert {type:'json'};
+app.get('/', async function (req, res) {
+  const data = JSON.parse(await readFile('./data.json'))
+  const semester1 = data.data
+  .filter(item => item.semester === "1")
+  .reverse()
+  res.render('index', { semester1 })
+})
+
+app.get('/:slug', async function (req, res) {
+  const data = JSON.parse(await readFile('./data.json'))
+  const blog = data.data.find(item => item.slug === req.params.slug)
+
+  if (!blog) {
+    res.status(404).send('Artikel niet gevonden')
+    return
+  }
+
+  res.render('article', { blog })
+})
 
 
-app.get('/', (request, response) => {
-  // Filter the data for both semesters
-  const semester1 = blogData.data.filter(blog => blog.semester === "1");
-
-  // Render the 'index.ejs' template with both filtered data sets
-  response.render('index', { semester1});
-});
-
-
-app.get('/:slug', (request, response) => {
-    const slug = request.params.slug;
-    const blog = blogData.data.find(p => p.slug === slug);
-
-    if (blog) {
-        response.render('article.ejs', { blog });
-
-    } else {
-        response.status(404).send('blog not found');
-    }
-});
-
-
-app.set('port', process.env.PORT || 2000)
+app.set('port', process.env.PORT || 2001)
 app.listen(app.get('port'), function () {
   console.log(`Application started on http://localhost:${app.get('port')}`)
 })
+
+
